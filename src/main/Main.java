@@ -14,8 +14,7 @@ public class Main {
 		Student Abhi = new Student(1, "Abhishek", "Chachadi", LocalDate.of(1999, Month.NOVEMBER, 29), "Mahantesh Nagar",
 				"HAHAHAHAHA sucker, not putting it", RV, 9.32);
 
-		System.out.printf(
-				"Hi I am %s, and I am still a noob at everything. This is just a sample initial code and i will add everything once I am out of here",
+		System.out.printf("Hi I am %s, and I am still a noob at everything. This is just a sample initial code and i will add everything once I am out of here",
 				Abhi.getLastName());
 		
 		System.out.println();
@@ -30,5 +29,8 @@ public class Main {
 				Abhi.getDOB().toString(),
 				Abhi.getAddress(), Abhi.getPhoneNumber(), Abhi.getCollege().getCollegName(),
 				Abhi.getGPA());
+		System.out.println();
+		System.out.println("END");
 	}
+
 }
